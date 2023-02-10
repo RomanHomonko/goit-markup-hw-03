@@ -431,6 +431,19 @@ img {
     gap: 120px;
 }
 .footer-container {
+    display: flex;
+    justify-content: flex-start;
+    /* border: 1px solid #FFFFFF; */
+}
+.footer-container-logo {
+    display: block;
+    width: 584px;
+    /* border: 1px solid #FFFFFF; */
+}
+.footer-soc {
+    display: block;
+    justify-content: start;
+    /* border: 1px solid #FFFFFF; */
 }
 .footer-logo {
     font-family: 'Raleway', sans-serif;
@@ -453,18 +466,16 @@ img {
     color: #E7E9FC;
     width: 264px;
 }
-.footer-soc {
-}
 .footer-aftertitle {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 16px;
     color: #FFFFFF;
 }
 .footer-soc-list {
     display: flex;
-    justify-content: center;
     gap: 16px;
 }
 .footer-soc-item {
